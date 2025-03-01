@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@google-cloud/alloydb": "^1.9.0",
+    "@supabase/supabase-js": "^2.45.6",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dompurify": "^3.2.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-slow-down": "^2.0.3",
+    "fs": "^0.0.1-security",
+    "jsdom": "^26.0.0",
+    "knex": "^3.1.0",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
