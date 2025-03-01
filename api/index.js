@@ -30,7 +30,7 @@ app.post("/save-calculation", async (req, res) => {
   const { x, y, "g-recaptcha-response": recaptchaToken } = req.body;
   try {
     const params = new URLSearchParams({
-      secret: "6Ldg-uUqAAAAAHGdzk6b6NW7XSNcBtmh05IJDGAI",
+      secret: process.env.GOOGLE_TOKEN,
       response: recaptchaToken,
       remoteip: req.ip,
     });
